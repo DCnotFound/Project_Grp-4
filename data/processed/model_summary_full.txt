@@ -1,0 +1,70 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              log_price   R-squared:                       0.907
+Model:                            OLS   Adj. R-squared:                  0.907
+Method:                 Least Squares   F-statistic:                 5.356e+04
+Date:                Fri, 25 Sep 2026   Prob (F-statistic):               0.00
+Time:                        19:40:47   Log-Likelihood:             1.9694e+05
+No. Observations:              240804   AIC:                        -3.938e+05
+Df Residuals:                  240759   BIC:                        -3.933e+05
+Df Model:                          44                                         
+Covariance Type:            nonrobust                                         
+=========================================================================================================
+                                            coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------------
+Intercept                                11.5444      0.017    662.316      0.000      11.510      11.579
+C(town_name)[T.BEDOK]                    -0.0333      0.001    -22.989      0.000      -0.036      -0.030
+C(town_name)[T.BISHAN]                    0.1594      0.002     80.071      0.000       0.155       0.163
+C(town_name)[T.BUKIT BATOK]              -0.1949      0.002   -127.171      0.000      -0.198      -0.192
+C(town_name)[T.BUKIT MERAH]               0.1513      0.002     95.835      0.000       0.148       0.154
+C(town_name)[T.BUKIT PANJANG]            -0.2541      0.002   -156.867      0.000      -0.257      -0.251
+C(town_name)[T.BUKIT TIMAH]               0.2975      0.005     65.347      0.000       0.289       0.306
+C(town_name)[T.CENTRAL AREA]              0.2653      0.003     97.452      0.000       0.260       0.271
+C(town_name)[T.CHOA CHU KANG]            -0.3321      0.002   -215.507      0.000      -0.335      -0.329
+C(town_name)[T.CLEMENTI]                  0.0526      0.002     28.799      0.000       0.049       0.056
+C(town_name)[T.GEYLANG]                   0.0460      0.002     26.060      0.000       0.043       0.049
+C(town_name)[T.HOUGANG]                  -0.1483      0.001   -100.428      0.000      -0.151      -0.145
+C(town_name)[T.JURONG EAST]              -0.1610      0.002    -85.578      0.000      -0.165      -0.157
+C(town_name)[T.JURONG WEST]              -0.2712      0.001   -193.058      0.000      -0.274      -0.268
+C(town_name)[T.KALLANG/WHAMPOA]           0.0936      0.002     56.250      0.000       0.090       0.097
+C(town_name)[T.MARINE PARADE]             0.2464      0.003     81.894      0.000       0.241       0.252
+C(town_name)[T.PASIR RIS]                -0.1837      0.002   -106.038      0.000      -0.187      -0.180
+C(town_name)[T.PUNGGOL]                  -0.2291      0.001   -157.964      0.000      -0.232      -0.226
+C(town_name)[T.QUEENSTOWN]                0.1576      0.002     91.351      0.000       0.154       0.161
+C(town_name)[T.SEMBAWANG]                -0.3219      0.002   -187.036      0.000      -0.325      -0.319
+C(town_name)[T.SENGKANG]                 -0.2560      0.001   -181.883      0.000      -0.259      -0.253
+C(town_name)[T.SERANGOON]                 0.0104      0.002      5.259      0.000       0.007       0.014
+C(town_name)[T.TAMPINES]                 -0.0793      0.001    -56.946      0.000      -0.082      -0.077
+C(town_name)[T.TOA PAYOH]                 0.0605      0.002     37.350      0.000       0.057       0.064
+C(town_name)[T.WOODLANDS]                -0.3064      0.001   -217.977      0.000      -0.309      -0.304
+C(town_name)[T.YISHUN]                   -0.2227      0.001   -159.592      0.000      -0.225      -0.220
+C(flat_type_name)[T.2 ROOM]               0.1306      0.012     11.292      0.000       0.108       0.153
+C(flat_type_name)[T.3 ROOM]               0.2797      0.012     24.282      0.000       0.257       0.302
+C(flat_type_name)[T.4 ROOM]               0.3429      0.012     29.417      0.000       0.320       0.366
+C(flat_type_name)[T.5 ROOM]               0.3529      0.012     29.857      0.000       0.330       0.376
+C(flat_type_name)[T.EXECUTIVE]            0.4045      0.012     33.503      0.000       0.381       0.428
+C(flat_type_name)[T.MULTI-GENERATION]     0.4726      0.017     28.357      0.000       0.440       0.505
+C(txn_year)[T.2018]                      -0.0129      0.001    -12.380      0.000      -0.015      -0.011
+C(txn_year)[T.2019]                      -0.0140      0.001    -13.555      0.000      -0.016      -0.012
+C(txn_year)[T.2020]                       0.0165      0.001     16.131      0.000       0.015       0.019
+C(txn_year)[T.2021]                       0.1286      0.001    131.785      0.000       0.127       0.130
+C(txn_year)[T.2022]                       0.2380      0.001    239.701      0.000       0.236       0.240
+C(txn_year)[T.2023]                       0.3056      0.001    305.030      0.000       0.304       0.308
+C(txn_year)[T.2024]                       0.3809      0.001    386.372      0.000       0.379       0.383
+C(txn_year)[T.2025]                       0.4492      0.001    445.003      0.000       0.447       0.451
+C(txn_year)[T.2026]                       0.4519      0.001    416.945      0.000       0.450       0.454
+floor_area_sqm                            0.0084   3.32e-05    253.666      0.000       0.008       0.008
+storey_midpoint                           0.0078   4.07e-05    192.033      0.000       0.008       0.008
+remaining_lease_years                     0.0058      0.000     42.842      0.000       0.005       0.006
+building_age_at_sale                     -0.0045      0.000    -34.042      0.000      -0.005      -0.004
+==============================================================================
+Omnibus:                    15489.354   Durbin-Watson:                   1.049
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            39822.038
+Skew:                           0.377   Prob(JB):                         0.00
+Kurtosis:                       4.844   Cond. No.                     1.83e+04
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.83e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.

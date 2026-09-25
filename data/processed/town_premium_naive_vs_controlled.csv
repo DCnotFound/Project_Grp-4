@@ -1,0 +1,26 @@
+,naive_pct_premium,controlled_pct_premium
+C(town_name)[T.BUKIT TIMAH],66.2,34.6
+C(town_name)[T.CENTRAL AREA],40.7,30.4
+C(town_name)[T.MARINE PARADE],18.3,27.9
+C(town_name)[T.BISHAN],52.0,17.3
+C(town_name)[T.QUEENSTOWN],31.3,17.1
+C(town_name)[T.BUKIT MERAH],31.5,16.3
+C(town_name)[T.KALLANG/WHAMPOA],21.8,9.8
+C(town_name)[T.TOA PAYOH],14.8,6.2
+C(town_name)[T.CLEMENTI],15.3,5.4
+C(town_name)[T.GEYLANG],3.6,4.7
+C(town_name)[T.SERANGOON],19.9,1.0
+C(town_name)[T.BEDOK],1.9,-3.3
+C(town_name)[T.TAMPINES],22.5,-7.6
+C(town_name)[T.HOUGANG],11.8,-13.8
+C(town_name)[T.JURONG EAST],0.7,-14.9
+C(town_name)[T.PASIR RIS],28.5,-16.8
+C(town_name)[T.BUKIT BATOK],7.0,-17.7
+C(town_name)[T.YISHUN],-2.8,-20.0
+C(town_name)[T.PUNGGOL],19.1,-20.5
+C(town_name)[T.BUKIT PANJANG],8.8,-22.4
+C(town_name)[T.SENGKANG],15.5,-22.6
+C(town_name)[T.JURONG WEST],-0.2,-23.8
+C(town_name)[T.WOODLANDS],3.5,-26.4
+C(town_name)[T.SEMBAWANG],9.0,-27.5
+C(town_name)[T.CHOA CHU KANG],7.0,-28.3
